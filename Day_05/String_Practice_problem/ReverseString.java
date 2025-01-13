@@ -1,4 +1,10 @@
+
 import java.util.Scanner;
+
+public class ReverseString{
+     public static void main(String[] args){
+
+Scanner input = new import java.util.Scanner;
 
 public class ReverseString {
     public static void main(String[] args) {
@@ -21,4 +27,17 @@ public class ReverseString {
         // Display the reversed string
         System.out.println("Reversed string: " + reverse.toString());
     }
+}
+Scanner(System.in);
+String s = input.next();
+System. out. println("Original string : "+ s);
+String reverse="";
+for(int i=s.length()-1;i>=0;i--){
+reverse+=s.charAt(i);
+}
+System. out. println("Reverse of string : "+ reverse);
+
+}
+
+
 }
